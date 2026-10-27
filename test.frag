@@ -52,7 +52,7 @@ void main()
 
     vec3 col = vec3(n);
     // 加上彩色调色
-    col = mix(vec3(0.02,0.05,0.12), vec3(0.1,0.7,0.8), n);
+    col = mix(vec3(0.09,0.0,0.12), vec3(0.8,0.6,0.6), n);
 
     gl_FragColor = vec4(col, 1.0);
 }
